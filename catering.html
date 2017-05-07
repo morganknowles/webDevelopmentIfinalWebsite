@@ -1,0 +1,238 @@
+<!doctype html >
+<html>
+<head>
+<meta charset="utf-8">
+<title>Tasty Treats :: Catering</title>
+<link href="style.css" rel="stylesheet">
+<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+<div id="wrapper">
+<header>
+<h1>Tasty Treats Cupcake Design</h1>
+
+
+
+</header>
+
+<nav>
+<ul>
+<li><a class="list"  href="index.html">Home</a></li>
+<li><a class="list" href="ourcupcakes.html">Our Cupcakes</a></li>
+<li><a class="list norightborder" href="catering.html">Catering</a></li>
+<li><a class="list" href="reviews.html">Reviews</a></li>
+<li><a class="list" href="contact.html">Contact</a></li>
+</ul>
+
+
+<table class="minischedule">
+<tr>
+<th>Mon</th>
+<td>10am-8pm</td>
+</tr>
+<tr>
+<th>Tue</th>
+<td>10am-8pm</td>
+</tr>
+<tr>
+<th>Wed</th>
+<td>10am-8pm</td>
+</tr>
+<tr>
+<th>Thu</th>
+<td>9am-9pm</td>
+</tr>
+<tr>
+<th>Fri</th>
+<td>8am-10pm</td>
+</tr>
+<tr>
+<th>Sat</th>
+<td>7am-10pm</td>
+</tr>
+<tr>
+<th>Sun</th>
+<td>7am-8pm</td>
+</tr>
+
+</table>
+
+</nav>
+
+
+
+
+<main>
+<h1 class="headers">Catering Information</h1>
+
+
+<img id="cateringimage" src="images/catering_cupcake.jpg" height="400" width="500" alt="photo of many cupcakes on display at Tasty Treats Cupcake Design in Portsmouth NH">
+
+
+<table id="cateringtable">
+
+<tr>
+    <th>Number of cupcakes</th>
+    <th>Price</th>
+</tr>
+
+<tr>
+	<td>10</td>
+	<td>$19.00</td>
+</tr>
+
+<tr>
+	<td>15</td>
+	<td>$28.00</td>
+<tr>
+	<td>25</td>
+	<td>$44.00</td>
+</tr>
+<tr>
+	<td>50</td>
+	<td>$82.00</td>
+</tr>
+<tr>
+	<td>75</td>
+	<td>$116.00</td>
+</tr>
+<tr>
+	<td>100</td>
+	<td>$150.00</td>
+</tr>
+<tr>
+	<td>150</td>
+	<td>$220.00</td>
+</tr>
+<tr>
+	<td>200</td>
+	<td>$290.00</td>
+</tr>
+<tr>
+	<td>300</td>
+	<td>$420.00</td>
+</tr>
+<tr>
+	<td>400</td>
+	<td>$500.00</td>
+</tr>
+<tr>
+	<td>500</td>
+	<td>$600.00</td>
+</tr>
+
+
+</table>
+
+<br id="linebreakclear">
+<br>
+<h2 class="headers order">Place an order here:</h2>
+<form name="catering" method="post" id="cateringform">
+
+<fieldset id="contact">
+<legend>Please provide your contact information</legend>
+    <label for="name">Name:</label>
+    <br>
+        <input type="text" id="name"> 
+    <br>
+    <label for="email">E-Mail:</label>
+    <br>
+    	<input type="email" id="email">
+    <br>
+    <label for="phone">Phone Number:</label>
+    <br>
+    	<input type="text" id="phone">
+    <br>
+</fieldset>
+ 
+       
+    <fieldset id="cake">
+<legend>Select the cupcake flavor you would like</legend>
+	
+    <input type="radio" name="vanilla" id="vanilla">
+    	<label for="vanilla">Vanilla</label>
+        <br>
+    <input type="radio" name="chocolate" id="chocolate">
+        <label for="chocolate">Chocolate</label>
+        <br>
+    <input type="radio" name="marble" id="marble">
+        <label for="marble">Marble</label>
+        <br>
+    <input type="radio" name="pumpkin" id="pumpkin">
+        <label for="pumpkin">Pumpkin</label>
+        <br>
+     <input type="radio" name="redvelvet" id="redvelvet">
+        <label for="redvelvet">Red Velvet</label>
+        <br>
+      <input type="radio" name="lemon" id="lemon">
+        <label for="lemon">Lemon</label>
+        <br>
+    <input type="radio" name="chai" id="chai">
+        <label for="chai">Orange-spiced Chai</label>
+    
+	</fieldset>
+
+
+    <fieldset id="frosting">
+<legend>Select the frosting flavor you would like (if you want a twist please select two)</legend>
+		<input type="checkbox" name="vanillafrosting" id="vanillafrosting">
+        <label for="vanillafrosting">Vanilla</label>
+	
+        <br>
+     <input type="checkbox" name="chocolatefrosting" id="chocolatefrosting">
+        <label for="chocolatefrosting">Chocolate</label>
+    
+        <br>
+     <input type="checkbox" name="creamcheese" id="creamcheese">
+         <label for="creamcheese">Cream Cheese</label>
+   
+        <br>
+     <input type="checkbox" name="peanutbutter" id="peanutbutter">
+        <label for="peanutbutter">Peanut Butter</label>
+        <br>
+     <input type="checkbox" name="raspberry" id="raspberry">
+        <label for="raspberry">Raspberry</label>
+      
+    
+</fieldset>
+<fieldset id="endquestions">
+<legend>Please provide additional information about your order</legend>
+  	 	<label for="howmany">How many cupcakes would you like to order?</label>
+    <input type="number" min="10" max="500" name="howmany" id="howmany" step="5">
+        <br>
+    	<label for="bakingcup">Please choose a color for the cupcake liner</label>
+    <input type="color" name="bakingcup" id="bakingcup">
+    <br>
+		<label for="ready">Date you would like your order ready by:</label>
+	<input type="date" name="ready" id="ready">
+    <br>
+    	<label for="time">Time:</label>
+    <input type="time" name="time" id="time">
+ </fieldset>   
+    
+    	<br>
+ <aside> We will call you within 48 hours to gather more information about delivery and confirm your order.<br> A deposit of 25% will need to be made three days before your event.<br> Thank you for choosing Tasty Treats Cupcake Design!</aside>
+ <br>
+   <input type="submit"> 
+  
+
+
+
+</form>
+
+
+</main>
+
+<footer class="clearfooter">
+Copyright&copy;2014 TTCD
+<br>
+<a href="mailto:mknowles409@students.ccsnh.edu">mknowles409@students.ccsnh.edu</a>
+<br>
+<a href="https://www.flickr.com/photos/clevercupcakes/3828729086">Header image by Clever Cupcakes is used under the CC license. </a>
+</footer>
+
+</div>
+</body>
+</html>

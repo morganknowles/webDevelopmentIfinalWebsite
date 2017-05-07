@@ -1,0 +1,229 @@
+@charset "utf-8";
+/* CSS Document */
+
+#wrapper {background-color:#d8c5ac;
+		width:85%;
+		margin-left: auto;
+		margin-right:auto;	
+		box-shadow: #413637 10px 5px 8px 2px;
+}
+
+header {font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+		font-weight:bold;
+		text-align:center;
+		font-size:1.3em;
+		background-image:url(images/cupcake_header.jpg);
+		background-size:1200px;
+		padding-top:10px;
+		padding-bottom:60px;
+		color:black;
+		
+}
+
+header h1 {background-color:#afedef;
+			padding:4px;
+			width:50%;
+			margin-right:auto;
+			margin-left:auto;
+			border-radius:6px 6px 6px 6px;
+			
+}
+
+
+.headers	{padding:10px;
+			margin-left:20%;
+}
+
+
+
+body {background-image:url(images/IMG_20141029_204651.jpg);
+	background-size: 50%;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+}
+
+
+
+/*Navigation area*/
+
+nav	{background: -webkit-linear-gradient(#1d1f20,#d8c5ac); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#1d1f20,#d8c5ac); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#1d1f20,#d8c5ac); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#1d1f20,#d8c5ac); /* Standard syntax */
+	float:left;
+	width:200px;
+	height:700px;
+}
+
+nav a {text-decoration:none
+}
+
+nav ul{ list-style-type: none;
+		font-size:1.2em;
+}
+
+.list {color:#0F0E4F;
+			border-radius: 50px 0px 0px 50px;
+			border: groove 2px black;
+			padding:30px 15px 20px 30px;
+			font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+			text-align:center;
+			float:right;
+			width:120px;
+			background-color:#afedef;			
+}
+
+.norightborder	{border-right:none;
+				background-color:#d8c5ac;
+}
+
+.contact {font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+		font-size:.75em;
+		text-align:center;
+		padding-left:10px;
+		padding-top:100px;
+		color:#FFFFFF;
+}
+
+.minischedule	{
+		
+		font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+		font-size:.9em;
+		color:black;
+		margin-left:17%;
+		margin-right:15%;
+}
+
+
+/*index.html*/
+#mission	{font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	text-align:center;
+	margin:10px;
+}			
+
+
+/* ourcupcakes.html*/
+
+figure{margin-left:35%;
+		margin-right:10%;
+}
+
+figure img	{box-shadow: #413637 10px 5px 8px 2px;
+}
+
+.last 	{float:left;
+		background-color:#afedef;
+		color:green;
+		padding:20px;
+		margin-left:4%;
+		margin-right:4%;
+		border: 2px green solid;
+		font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font-size:1.7em;
+		border-radius: 70px 0px  70px;		
+}
+
+.next	{float:right;
+		background-color:#afedef;
+		color:green;
+		padding:20px;
+		margin-left:4%;
+		margin-right:4%;
+		border: 2px green solid;
+		font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font-size:1.7em;
+		border-radius: 0px 70px  0px;
+}
+
+figcaption	{font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+}
+
+
+/*catering.html*/
+#cateringtable	{float:left;
+		width:20%;
+		text-align:center;
+		margin-top:50px;
+		margin-left:2%;
+		border:3px solid #0D0909;
+		background-color:#afedef;
+		box-shadow: #413637 10px 5px 8px 2px;
+		
+}
+
+#cateringtable td {border:2px solid black;
+		font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+		
+}
+
+#cateringtable	th	{font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+		font-size:1.6em;
+
+}
+
+#cateringimage{margin-right:4%;
+		margin-left:4%;
+		margin-top:50px;
+		float:right;
+		box-shadow: #413637 10px 5px 8px 2px;
+}
+
+#linebreakclear	{clear:right;
+}
+
+form	{margin-left:27%;
+		margin-right:15%;
+		margin-top:100px;
+		margin-bottom:15px;
+		font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+		
+}
+.order	{margin-top:100px;
+}
+
+
+
+/*reviews.html*/
+#reviewlist	{font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+		padding:40px;
+		margin-left:24%;
+		
+}
+
+#reviewlist dt dd	{padding-top:5px;
+		padding-bottom:5px;
+}
+
+#reviewlist	dt	{font-weight:bold;
+}
+#reviewlist dd	{margin-bottom:20px;
+}
+
+
+/*contact.html*/
+.contact {font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+		text-align:center;
+		padding-left:10px;
+		padding-top:100px;
+		color:black;
+		font-size:1.2em;
+}
+#googleMap	{margin-left:auto;
+			margin-right:auto;
+			margin-bottom:20px;
+ 			width:500px;
+ 			height:380px;
+			box-shadow: #413637 10px 5px 8px 2px;
+			
+}
+
+
+
+
+
+footer	{background-color:#110F0F;
+		color:white;
+		text-align:center;
+		clear:both;
+}
+
+
